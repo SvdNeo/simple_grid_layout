@@ -6,38 +6,40 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Webpage Skeleton</title>
 </head>
-<body class="flex flex-col h-screen">
-    <div class="grid grid-cols-3 gap-4 px-4 py-5 flex-grow">
+<body class="flex flex-col h-full">
+    <div class="grid grid-cols-3 gap-4 px-4 py-5  flex-grow  ">
         <!-- Header -->
         <div class="col-span-3 bg-blue-500 text-white text-center py-4">
             <h1>Header</h1>
         </div>
         <!-- Sidebar -->
-        <div class="bg-green-500 text-white text-center py-16">
+       
+        <div class="bg-green-500 text-white text-center py-16  ">
             <h2>Sidebar</h2>
         </div>
         <!-- Main Content -->
-        <div class="col-span-2">
+        <div class="col-span-2 h-full">
             <!-- First Row -->
-            <div class="grid grid-cols-3 gap-4">
-                <div class="col-span-1 bg-red-500 border border-white text-white text-center py-8">
+            <div class="grid grid-cols-3 gap-4 ">
+                <div class="col-span-1 bg-red-500 border border-white text-white text-center py-8 h-full">
                     <h2>Section 1</h2>
                 </div>
-                <div class="col-span-1 bg-green-500 border border-white text-white text-center py-8">
+                <div class="col-span-1 bg-green-500 border border-white text-white text-center py-8 h-full">
                     <h2>Section 2</h2>
                 </div>
-                <div class="col-span-1 bg-blue-500 border border-white text-white text-center py-8">
+                <div class="col-span-1 bg-blue-500 border border-white text-white text-center py-8 h-full">
                     <h2>Section 3</h2>
                 </div>
             </div>
             <!-- Second Row -->
             <div class="grid grid-cols-3 gap-4">
-                <div class="col-span-1 bg-yellow-500 border border-white text-white text-center py-8">
+                <div class="col-span-1 bg-yellow-500 border border-white text-white text-center py-8 h-full">
                     <h2>Section 4</h2>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Footer -->
     <div class="bg-yellow-500 text-white text-center py-4">
         <h2>Footer</h2>
