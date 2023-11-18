@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Webpage Skeleton</title>
 </head>
-<body>
-    <div class="grid grid-cols-3 gap-4 px-4 py-5">
+<body class="flex flex-col h-screen">
+    <div class="grid grid-cols-3 gap-4 px-4 py-5 flex-grow">
         <!-- Header -->
         <div class="col-span-3 bg-blue-500 text-white text-center py-4">
             <h1>Header</h1>
         </div>
         <!-- Sidebar -->
-        <div class="bg-green-500 text-white text-center py-4">
+        <div class="bg-green-500 text-white text-center py-16">
             <h2>Sidebar</h2>
         </div>
         <!-- Main Content -->
-        <div class="col-span-2 bg-red-500 text-white text-center py-4">
-            <h2>Main Content</h2>
+        <div class="col-span-2">
+            <!-- First Row -->
+            <div class="grid grid-cols-3 gap-4">
+                <div class="bg-red-500 border border-white text-white text-center py-8">
+                    <h2>Section 1</h2>
+                </div>
+                <div class="bg-green-500 border border-white text-white text-center py-8">
+                    <h2>Section 2</h2>
+                </div>
+                <div class="bg-blue-500 border border-white text-white text-center py-8">
+                    <h2>Section 3</h2>
+                </div>
+            </div>
+            <!-- Second Row -->
+            <div class="bg-yellow-500 border border-white text-white text-center py-8">
+                <h2>Section 4</h2>
+            </div>
         </div>
-        <!-- Footer -->
-        <div class="col-span-3 bg-yellow-500 text-white text-center py-4">
-            <h2>Footer</h2>
-        </div>
+    </div>
+    <!-- Footer -->
+    <div class="bg-yellow-500 text-white text-center py-4">
+        <h2>Footer</h2>
     </div>
 </body>
 </html>
