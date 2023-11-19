@@ -70,4 +70,13 @@ background-color: brown;
     font-weight: bolder;
     background-color: fuchsia;
 }
-
+footer{
+    grid-area: Footer;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: crimson;
+}
