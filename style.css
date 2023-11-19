@@ -18,4 +18,13 @@ body,html{
     height: 100%;
     animation: fadeIn 1s ease-in-out;
 }
-
+nav{
+    grid-area: Navbar;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: blue;
+}
