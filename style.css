@@ -89,3 +89,27 @@ footer{
     font-weight: bolder;
     background-color: crimson;
 }
+
+@media(max-width:768px){
+    .page{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "Navbar"
+        "Sidebar"
+        "Main"
+        "Section1"
+        "Section2"
+        "Section3"
+        "Section4"
+        "Footer" ;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 2;
+    }
+}
