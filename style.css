@@ -18,6 +18,15 @@ body,html{
     height: 100%;
     animation: fadeIn 1s ease-in-out;
 }
+nav,main,#sidebar,#section1,#section2,#section3,#section4,footer{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    transition: transform 0.3s,box-shadow 0.3s;
+}
+nav:hover,main:hover,#sidebar:hover,#section1:hover,#section2:hover,#section3:hover,#section4:hover,footer:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    transform: scale(1.03);
+}
 nav{
     grid-area: Navbar;
     padding: 20px;
