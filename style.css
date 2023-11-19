@@ -42,4 +42,32 @@ main{
     font-weight: bolder;
     background-color: aquamarine;
 }
+#section1{
+    grid-area: Section1;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+background-color: brown;
+}
+#section2{ 
+    grid-area: Section2;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: olive;
+}
+#section3{
+    grid-area: Section3;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: goldenrod;
+}
+#section4{
+    grid-area: Section4;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: fuchsia;
+}
 
