@@ -28,3 +28,18 @@ nav{
     font-weight: bolder;
     background-color: blue;
 }
+main{
+    grid-area: Main;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: blueviolet;
+}
+#sidebar{
+    grid-area: Sidebar;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: aquamarine;
+}
+
